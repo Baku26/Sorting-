@@ -13,6 +13,19 @@ public class BinarySearchRecursionTest
         }
         else {
             System.out.println("element is not found in the index");
+
+        long totalStart = System.nanoTime();
+        
+        long constStart = System.nanoTime();
+        
+        long constEnd = System.nanoTime();
+        
+        long searchStart = System.nanoTime();
+        
+        long searchEnd = System.nanoTime();
+        
+      
+        long totalEnd = System.nanoTime();
         }
     }
 }
