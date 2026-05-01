@@ -26,7 +26,23 @@ public class LinearBinarySearchTest {
         
         boolean found7 = ls.search(sortedNumbers, 6);
         System.out.println("result for 6 is:" + found7);
+
+        long totalStart = System.nanoTime();
         
+        long constStart = System.nanoTime();
+        
+        long constEnd = System.nanoTime();
+        
+        long searchStart = System.nanoTime();
+        
+        long searchEnd = System.nanoTime();
+        
+      
+        long totalEnd = System.nanoTime();
+
+        System.out.println("construction : " + (constEnd - constStart) / 1e6 + "ms");
+        System.out.println("searching :" + (searchEnd - searchStart) / 1e6 + "ms");
+        System.out.println("Total:" + (totalEnd - totalStart) / 1e6 + "ms");
         
     }
     
