@@ -3,7 +3,7 @@
 public class InsertionSort
 {
     public static void Sort(int[]  arr) {
-        for(int i = 1; i < arr.length - 1; i++) {
+        for(int i = 1; i < arr.length; i++) {
             int currentValue = arr[i];
             int k = i - 1;
             
