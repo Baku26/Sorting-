@@ -10,7 +10,7 @@ public class InsertionSortTest {
           System.out.println(num + " ");
 
         double durationsMs = ( endTime - startTime) / 1_000_000;
-           System.out.println("\n\nTotal Sort Time: " + durationMs + " ms");
+           System.out.println("\n\nTotal Sort Time: " + durationsMs + " ms");
           
       }
       }
