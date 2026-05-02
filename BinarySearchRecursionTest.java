@@ -5,7 +5,7 @@ public class BinarySearchRecursionTest
         int[] sortedArr = {4, 7, 9, 14, 27, 33, 67, 78, 99};
         int target = 27;
         
-        int result = BinarySearchRecursion.recursiveSearch(sortedArr, 0, sortedArr.length - 1, target);
+        int result = BinarySearchRecursion.recursiveSearch(sortedArr, 0, sortedArr.length, target);
         
         if( result !=-1 ) {
             System.out.println("element is found at index:" + result);
