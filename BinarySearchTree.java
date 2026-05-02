@@ -23,11 +23,11 @@ public class BinarySearchTree {
                 return root;
             }
             if(value < root.value) {
-                root.left = insertRec(root.left, value);
+                root.left = insertRec(root.right, value);
                 
                 }
                 else 
-                root.right  = insertRec(root.right, value);
+                root.right  = insertRec(root.left, value);
                 return root;
                 }
                 public boolean contains(int value) {
